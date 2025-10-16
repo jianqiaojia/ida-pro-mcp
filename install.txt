@@ -1,5 +1,9 @@
 按照这个文档安装：https://github.com/mrexodia/ida-pro-mcp?tab=readme-ov-file#manual-installation
 
+解释：
+ida-pro-mcp --install 会把mcp-plugin.py（.symlink）放置到C:\Users\jianqiaojia\AppData\Roaming\Hex-Rays\IDA Pro\plugins
+IDA 会自动扫描 Roaming 目录的 plugins 文件夹，这是IDA 能看到插件的原因
+
 可能的问题：
 1.IDA 找不到MCP plugin, 可能是python 版本问题
 PS C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable> .\idapyswitch.exe --force-path C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable\python311\python3.dll
