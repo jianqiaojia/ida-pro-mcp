@@ -1,0 +1,18 @@
+按照这个文档安装：https://github.com/mrexodia/ida-pro-mcp?tab=readme-ov-file#manual-installation
+
+可能的问题：
+1.IDA 找不到MCP plugin, 可能是python 版本问题
+PS C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable> .\idapyswitch.exe --force-path C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable\python311\python3.dll
+
+2.Roo code 连接不上 server
+    "github.com/mrexodia/ida-pro-mcp": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\jianqiaojia\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\ida_pro_mcp\\server.py"
+      ],
+      "timeout": 1800,
+      "disabled": false,
+      "alwaysAllow": [
+        "get_metadata"
+      ]
+    }
