@@ -8,6 +8,9 @@ IDA 会自动扫描 Roaming 目录的 plugins 文件夹，这是IDA 能看到插
 1.IDA 找不到MCP plugin, 可能是python 版本问题
 PS C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable> .\idapyswitch.exe --force-path C:\Users\jianqiaojia\Downloads\IDA_Pro_v8.3_Portable\python311\python3.dll
 
+1.1 也有可能是
+PS Q:\INT3> python C:\Users\jianqiaojia\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ida_pro_mcp --install
+
 2.Roo code 连接不上 server
     "github.com/mrexodia/ida-pro-mcp": {
       "command": "python",
